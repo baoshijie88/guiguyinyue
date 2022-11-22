@@ -43,6 +43,5 @@
     <view class="top">
         <navhead title="排行榜" desc="热歌风向标"></navhead>
     </view>
-    <my-component-t1 bindmyevent="onMyEvent"></my-component-t1>
 
 </view>
