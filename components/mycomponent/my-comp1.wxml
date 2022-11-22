@@ -1,0 +1,4 @@
+<!--components/mycomponent/my-comp1.wxml-->
+<view>
+    <button type="primary" bindtap="onTap">单击一下</button>
+</view>

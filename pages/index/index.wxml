@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="root">
+    <!--    轮播图区域-->
+    <swiper class="swaiper-container" indicator-dots="true" indicator-color="ivory" indicator-active-color="#d43c33">
+        <swiper-item class="item" wx:for="{{bannerList}}" wx:key="bannerId">
+            <image src="{{item.pic}}" mode="scaleToFill"></image>
+        </swiper-item>
+    </swiper>
+    <!--    导航区域-->
+    <view class="navigation">
+        <view class="nav-item">
+            <text class="iconfont icon-meirituijian"></text>
+            <text>每日推荐</text>
+        </view>
+        <view class="nav-item">
+            <text class="iconfont icon-gedan"></text>
+            <text>歌单</text>
+        </view>
+        <view class="nav-item">
+            <text class="iconfont icon-paihangbanggequ"></text>
+            <text>排行榜</text>
+        </view>
+        <view class="nav-item">
+            <text class="iconfont icon-diantai"></text>
+            <text>电台</text>
+        </view>
+        <view class="nav-item">
+            <text class="iconfont icon-zhibo"></text>
+            <text>直播</text>
+        </view>
+    </view>
+    <!--    推荐歌曲-->
+    <view class="recommend">
+        <navhead title="推荐歌曲" desc="为你精心推荐"></navhead>
+        <scroll-view class="recommend-scroll" enable-flex scroll-x>
+            <view class="scroll-item" wx:for="{{recommendList}}" wx:key="id" >
+                <image src="{{item.picUrl}}"></image>
+                <text>{{item.name}}</text>
+            </view>
+        </scroll-view>
+    </view>
+<!--    排行榜区域-->
+    <view class="top">
+        <navhead title="排行榜" desc="热歌风向标"></navhead>
+    </view>
+    <my-component-t1 bindmyevent="onMyEvent"></my-component-t1>
+
+</view>

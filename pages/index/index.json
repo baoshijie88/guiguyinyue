@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navhead": "/components/navhead/navhead",
+    "my-component-t1": "/components/mycomponent/my-comp1"
+  }
+}

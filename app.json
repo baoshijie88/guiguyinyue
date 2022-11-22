@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/center/center",
+        "pages/show/show",
+        "pages/car/car",
+        "pages/user/center"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#d43c33",
+        "navigationBarTitleText": "硅谷云音乐",
+        "navigationBarTextStyle": "white"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

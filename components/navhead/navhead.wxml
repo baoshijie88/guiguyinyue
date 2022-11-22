@@ -1,0 +1,8 @@
+<!--components/navhead/navhead.wxml-->
+<view>
+    <text class="head">{{title}}</text>
+</view>
+<view class="for-you">
+    <text class="l-txt">{{desc}}</text>
+    <text class="more">查看更多</text>
+</view>

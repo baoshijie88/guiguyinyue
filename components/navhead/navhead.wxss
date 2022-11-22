@@ -1,0 +1,22 @@
+/* components/navhead/navhead.wxss */
+.head {
+    color: #666;
+    font-size: 26rpx;
+    line-height: 80rpx;
+}
+.for-you {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.for-you .l-txt {
+    flex-grow: 1;
+}
+.more {
+    font-size: 26rpx;
+    border: 1rpx solid #666;
+    border-radius: 30rpx;
+    line-height: 46rpx;
+    height: 46rpx;
+    padding: 0 20rpx;
+    flex-grow: 0;
+}
