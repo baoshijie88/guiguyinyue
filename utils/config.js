@@ -1,3 +1,3 @@
 export default {
-    host: "http://localhost:3000"
+    host: "https://3y22q40282.yicp.fun"
 }

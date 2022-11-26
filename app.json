@@ -1,16 +1,41 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/center/center",
-        "pages/show/show",
-        "pages/car/car",
-        "pages/user/center"
-    ],
-    "window": {
-        "navigationBarBackgroundColor": "#d43c33",
-        "navigationBarTitleText": "硅谷云音乐",
-        "navigationBarTextStyle": "white"
-    },
-    "style": "v2",
-    "sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/show/show",
+    "pages/car/car",
+    "pages/user/center"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "硅谷云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d43c33",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/images/tab/home.png",
+        "selectedIconPath": "/static/images/tab/home-selected.png"
+      },
+      {
+        "pagePath": "pages/show/show",
+        "text": "视频",
+        "iconPath": "/static/images/tab/video.png",
+        "selectedIconPath": "/static/images/tab/video-selected.png"
+      },
+      {
+        "pagePath": "pages/user/center",
+        "text": "个人中心",
+        "iconPath": "/static/images/tab/my.png",
+        "selectedIconPath": "/static/images/tab/my-selected.png"
+      }
+    ]
+  }
 }
