@@ -3,6 +3,7 @@
     width: 100%;
     height: 300rpx;
 }
+
 .swaiper-container image {
     height: 100%;
     width: 100%;
@@ -40,7 +41,6 @@
 }
 
 
-
 .recommend-scroll {
     margin-top: 20rpx;
     height: 280rpx;
@@ -51,6 +51,7 @@
     width: 200rpx;
     margin-right: 20rpx;
 }
+
 .scroll-item image {
     width: 200rpx;
     height: 200rpx;
@@ -68,5 +69,46 @@
 
 .top {
     padding: 20rpx;
+}
+
+swiper.top-list .top-list-item {
+    margin-top: 20rpx;
+    width: 96%;
+    background-color: #fbfbfb;
+    height: 100%;
+}
+
+swiper.top-list .title {
+    font-size: 30rpx;
+    line-height: 50rpx;
+}
+
+swiper.top-list {
+    height: 600rpx;
+}
+
+swiper.top-list .music-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20rpx;
+}
+
+
+swiper.top-list .music-item image {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 10rpx;
+}
+
+swiper.top-list .music-item .music-name {
+    max-width: 400rpx;
+}
+
+swiper.top-list .music-item text {
+    line-height: 100rpx;
+    margin-left: 20rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
